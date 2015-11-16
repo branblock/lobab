@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  resources :messages, only: [:new, :create]
+  resources :users, only: [:new, :create]
 
   get 'welcome/about'
   get 'welcome/resources'

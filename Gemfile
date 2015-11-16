@@ -15,12 +15,13 @@ end
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
+  gem 'shoulda'
 end
 
 # Use Bootstrapp for styling
 gem 'bootstrap-sass'
-# Use Devise for Authentication
-gem 'devise'
+# Use bcrypt for encrypting passwords
+gem 'bcrypt'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
